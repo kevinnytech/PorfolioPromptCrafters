@@ -12,3 +12,4 @@ function CompareSlider() {
 }
 
 export default CompareSlider
+s
