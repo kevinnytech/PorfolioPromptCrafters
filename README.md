@@ -65,6 +65,6 @@ Pull requests welcome! See the [contribution docs](docs/contributing.md) for mor
 
 ## License
 
-MIT License - see the [LICENSE file](LICENSE) for detai
+MIT License - see the [LICENSE file](LICENSE) for deta
 
 
