@@ -1,5 +1,3 @@
-
-
 # RoomZone 
 
 ## About
@@ -8,8 +6,7 @@ RoomZone uses AI to allow users easily visualize and customize room designs. Con
 
 Built with:
 
-- Next.js
-- React 
+- React Framework of  Next.js 
 - Tailwind CSS
 - Replicate API
 - Vercel
@@ -65,6 +62,5 @@ Pull requests welcome! See the [contribution docs](docs/contributing.md) for mor
 
 ## License
 
-MIT License - see the [LICENSE fi
-
+MIT License - see the [LICENSE file](LICENSE) for details
 
