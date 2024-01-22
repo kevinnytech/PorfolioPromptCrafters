@@ -21,20 +21,65 @@ We welcome community contributions to improve the RoomZone! Follow these guideli
 
 ## Pull Requests 
 
-**Begin Communication** in Issues to align with roadmap and scope implementation.
 
-**Changes** should:
 
-- Have associated issue ticket
-- Be free of lint errors and build warnings 
-- Include tests covering features
-- Be documented for components/functions
 
-**Commit Messages** should summarize change rather than reference ticket. 
+# Architecture
 
-**Merge Approval** based on quality, alignment with goals, and maintenance impact.
+This document overviews the software architecture and technologies powering the RoomZone application.
 
-## Code of Conduct
+## High Level Overview
 
-Community should remain **respectful, collaborative, and harassment-free**.
+RoomZone follows a layered architectural pattern consisting of:
+
+- User Interface Layer 
+- Application Layer
+- Data Layer
+- Infrastructure Layer 
+
+This separation of concerns promotes loose coupling between components.
+
+## UI Layer
+
+The user interface layer handles presentation and user interactions via React frontend components.
+
+Key technologies:
+
+- **React** - Component model for modular UI development 
+- **NextJS** - Server-side rendering and tooling
+- **Tailwind** - Utility-first CSS styling
+- **Clerk** - User authentication UI
+
+Delivers an intuitive, responsive, and visually appealing experience across devices.
+
+## Application Layer
+
+The application layer contains the core business logic and connectivity:
+
+- **Node** - Backend runtime environment
+- **API Routes** - Handles image generation, auth
+- **Replicate SDK** - AI model integrations
+- **Axios** - Outbound data requests
+
+Manages application flows and integrations with external services.
+
+## Data Layer 
+
+The data layer persists application information: 
+
+- **Clerk** - User accounts, sessions
+- **Supabase** - User generated content
+
+Focuses on security, resilience, scale, and access control.
+
+## Infrastructure Layer
+
+The infrastructure provides foundational hosting and services:
+
+- **Vercel** - Global edge network 
+- **CI/CD Pipelines** - Testing and deployment
+- **Monitoring** - Logging, alerts, troubleshooting
+
+Enables security, reliability and delivery of the application.
+
 
