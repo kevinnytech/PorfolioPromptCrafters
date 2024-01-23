@@ -50,5 +50,12 @@ Focuses on security, resilience, scale, and access control.
 
 ## Infrastructure Layer
 
+The infrastructure provides foundational hosting and services:
+
+- **Vercel** - Global edge network 
+- **CI/CD Pipelines** - Testing and deployment
+- **Monitoring** - Logging, alerts, troubleshooting
+
+Enables security, reliability and delivery of the application.
 
 
